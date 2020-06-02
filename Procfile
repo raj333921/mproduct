@@ -1,1 +1,1 @@
-web:1
+web: java -jar target/com.mprod.jar
