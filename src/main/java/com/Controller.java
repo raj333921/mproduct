@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/EProduct")
-public class EmployeeProductController {
+public class Controller {
 
     @ResponseBody
     public String signUpCompanyDetails() {
