@@ -11,7 +11,11 @@ public class Application extends SpringBootServletInitializer {
 
 	
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+
+		SpringApplication app = new SpringApplication(Application.class);
+		app.setDefaultProperties(Collections
+				.singletonMap("server.port", "8143"));
+		app.run(args);
 	}
 
 }
