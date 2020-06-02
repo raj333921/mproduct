@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port=7143 target/com.mprod.jar
+web: java -jar -Dserver.port=$PORT target/com.mprod.jar
