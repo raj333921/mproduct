@@ -1,1 +1,1 @@
-web: java -jar target/com.mprod.jar
+web: java -jar -Dserver.port=7143 target/com.mprod.jar
