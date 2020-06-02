@@ -9,7 +9,7 @@ public class EmployeeProductController {
 
     @ResponseBody
     public String signUpCompanyDetails() {
-        return "HelloWorld"
+        return "HelloWorld";
 
     }
 
